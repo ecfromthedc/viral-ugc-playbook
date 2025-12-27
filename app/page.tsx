@@ -76,6 +76,8 @@ export default function Home() {
                   src={getAssetPath("/images/analytics-365-days.jpg")}
                   alt="365-day follower growth from 41K to 125K followers"
                   className="w-full h-full object-contain"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="p-4">
@@ -90,6 +92,8 @@ export default function Home() {
                   src={getAssetPath("/images/analytics-28-days.jpg")}
                   alt="28-day analytics showing 325M views, 376.6% follower growth"
                   className="w-full h-full object-contain"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="p-4">
