@@ -40,7 +40,7 @@ export default function Home() {
 
       {/* The Real Game */}
       <Section background="secondary" padding="lg">
-        <h2 className="mb-8">Growing Made Easy</h2>
+        <h2 className="mb-8 text-center">Growing Made Easy</h2>
 
         <div className="grid lg:grid-cols-3 gap-8 mb-12">
           <Card variant="bordered" className="bg-white text-center">
@@ -289,6 +289,15 @@ export default function Home() {
           <p className="text-lg text-[#5e5d59]">
             Not followers. <strong className="text-[#1f1e1d]">Median views.</strong>
           </p>
+
+          <Card variant="bordered" className="bg-[#faf9f6] border-l-4 border-[#44a6e4]">
+            <p className="text-lg text-[#5e5d59] mb-3">
+              <strong className="text-[#1f1e1d]">Highly engaged pages are more likely to get into the For You page.</strong> Engagement compounds—the more engagement you get, the more the algorithm pushes your content.
+            </p>
+            <p className="text-lg text-[#5e5d59]">
+              Applying these strategies is the most proven way to increase engagement and raise median views.
+            </p>
+          </Card>
 
           <Card variant="bordered" className="bg-[#44a6e4] text-white border-[#44a6e4]">
             <p className="text-xl font-medium">
