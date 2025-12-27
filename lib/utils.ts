@@ -6,8 +6,9 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 // Helper to get asset path with basePath for GitHub Pages
-// Uses the NEXT_PUBLIC_BASE_PATH env var set in next.config.ts
+// Hardcoded for production deployment to GitHub Pages
 export const getAssetPath = (path: string) => {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const isProd = process.env.NODE_ENV === 'production';
+  const basePath = isProd ? '/viral-ugc-playbook' : '';
   return `${basePath}${path}`;
 };
