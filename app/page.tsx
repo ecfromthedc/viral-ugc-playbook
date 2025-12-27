@@ -108,7 +108,7 @@ export default function Home() {
 
       {/* The System Header */}
       <Section background="primary" padding="lg" className="border-y border-[#e8e6dc]">
-        <h2 className="mb-4">The System (5 Steps)</h2>
+        <h2 className="mb-4">The System (6 Steps)</h2>
       </Section>
 
       {/* Step 1 */}
@@ -242,6 +242,46 @@ export default function Home() {
       <Section background="pure" padding="lg">
         <div className="flex items-start gap-6 mb-8">
           <div className="w-14 h-14 rounded-full bg-[#1f1e1d] text-white flex items-center justify-center text-2xl font-medium flex-shrink-0">5</div>
+          <h3 className="text-3xl lg:text-4xl pt-2">Create & Maintain a Native TikTok Aesthetic</h3>
+        </div>
+
+        <div className="ml-0 lg:ml-20 space-y-6">
+          <p className="text-lg text-[#5e5d59]">
+            Your content needs to feel native to TikTok, not like an ad or out-of-place post.
+          </p>
+
+          <Card variant="bordered" className="bg-[#faf9f6]">
+            <h4 className="font-medium text-lg mb-3">Reverse engineer pages in your niche:</h4>
+            <ul className="ml-6 space-y-2 text-[#5e5d59]">
+              <li>Study the top creators in your niche</li>
+              <li>Identify the visual and content patterns they use</li>
+              <li>Note the editing styles, transitions, and formats</li>
+              <li>Understand what makes their content feel authentic</li>
+            </ul>
+          </Card>
+
+          <Card variant="bordered" className="bg-[#44a6e4] text-white border-[#44a6e4]">
+            <h4 className="font-medium text-lg mb-3">Make memes that use proven viral elements:</h4>
+            <ul className="ml-6 space-y-2">
+              <li>Use the same visual language as viral content in your niche</li>
+              <li>Incorporate proven viral elements (text styles, transitions, sounds)</li>
+              <li>Match the pacing and energy of top-performing posts</li>
+              <li>Keep it authentic—don't force it, but lean into what works</li>
+            </ul>
+          </Card>
+
+          <Card variant="bordered" className="bg-[#1f1e1d] text-white border-[#1f1e1d]">
+            <p className="text-lg">
+              The goal: Your content should blend seamlessly into someone's For You page. When it feels native, it performs better.
+            </p>
+          </Card>
+        </div>
+      </Section>
+
+      {/* Step 6 */}
+      <Section background="secondary" padding="lg">
+        <div className="flex items-start gap-6 mb-8">
+          <div className="w-14 h-14 rounded-full bg-[#1f1e1d] text-white flex items-center justify-center text-2xl font-medium flex-shrink-0">6</div>
           <h3 className="text-3xl lg:text-4xl pt-2">What Gets You Booked</h3>
         </div>
 
@@ -279,22 +319,15 @@ export default function Home() {
             <h3 className="text-2xl font-medium mb-6">The Exchange:</h3>
             <Card variant="bordered" className="bg-white space-y-6">
               <div>
-                <p className="font-medium text-lg mb-3">Preferred rates on campaigns I book you:</p>
+                <p className="font-medium text-lg mb-3">Preferred rates on campaigns we book you for:</p>
+                <p className="text-lg text-[#5e5d59] mb-4">
+                  Whatever your main rate is, it needs to be discounted in favor of our higher volume, optimized workflow in 2026.
+                </p>
                 <ul className="ml-6 space-y-2 text-[#5e5d59]">
-                  <li>$5-30/post (based on your median views)</li>
-                  <li>Example: 50-100 posts/month = $250-$3,000/month baseline</li>
                   <li>You keep 100% of your own inbound deals</li>
                   <li>No exclusivity</li>
+                  <li>High volume = consistent income</li>
                 </ul>
-              </div>
-
-              <div className="border-t border-[#e8e6dc] pt-6">
-                <p className="font-medium text-lg mb-3">The math:</p>
-                <ul className="ml-6 space-y-2 text-[#5e5d59]">
-                  <li>Charging $50/post but getting 2-3 bookings/month = $100-$300</li>
-                  <li>Charging $5-30/post but getting 50-100 bookings/month = $250-$3,000</li>
-                </ul>
-                <p className="mt-4 text-lg font-medium text-[#1f1e1d]">Volume beats variance.</p>
               </div>
             </Card>
           </div>
@@ -328,7 +361,6 @@ export default function Home() {
                 <p className="font-medium mb-2">Include:</p>
                 <ul className="ml-6 space-y-1 text-[#5e5d59]">
                   <li>Your handles</li>
-                  <li>Current median views (if you know)</li>
                   <li>What you're interested in (just campaigns or full deal management)</li>
                 </ul>
               </div>
