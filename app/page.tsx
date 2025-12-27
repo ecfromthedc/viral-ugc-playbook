@@ -72,7 +72,7 @@ export default function Home() {
             <Card variant="bordered" className="bg-white overflow-hidden">
               <div className="w-full aspect-[9/16] bg-gray-100 flex items-center justify-center">
                 <img
-                  src="/images/analytics-365-days.jpg"
+                  src="/viral-ugc-playbook/images/analytics-365-days.jpg"
                   alt="365-day follower growth from 41K to 125K followers"
                   className="w-full h-full object-contain"
                 />
@@ -86,7 +86,7 @@ export default function Home() {
             <Card variant="bordered" className="bg-white overflow-hidden">
               <div className="w-full aspect-[9/16] bg-gray-100 flex items-center justify-center">
                 <img
-                  src="/images/analytics-28-days.jpg"
+                  src="/viral-ugc-playbook/images/analytics-28-days.jpg"
                   alt="28-day analytics showing 325M views, 376.6% follower growth"
                   className="w-full h-full object-contain"
                 />
