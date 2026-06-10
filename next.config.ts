@@ -11,10 +11,8 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 
   // Fix workspace root warning by explicitly setting the root directory
-  experimental: {
-    turbo: {
-      root: path.resolve(__dirname),
-    },
+  turbopack: {
+    root: path.resolve(__dirname),
   },
 
   images: {
